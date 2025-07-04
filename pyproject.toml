@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "therapy-notes-manager"
+version = "0.1.0"
+authors = [
+  { name="Daniel Anthony Bissey", email="support@fatstinkypanda.com" },
+]
+description = "A desktop application for managing therapy session notes."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FatStinkyPanda/therapy-notes-manager"
+"Bug Tracker" = "https://github.com/FatStinkyPanda/therapy-notes-manager/issues"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]

@@ -1,0 +1,104 @@
+{
+  "id": "dwc-workbook-v1",
+  "name": "DWC Education Workbook",
+  "version": "1.0.0",
+  "description": "Driving With Care education program workbook",
+  "author": "Therapy Program",
+  "created": "2025-01-03T10:00:00Z",
+  "modified": "2025-01-03T10:00:00Z",
+  "chapters": [
+    {
+      "id": "dwc-ch01",
+      "number": 1,
+      "title": "Group Orientation and Program Orientation",
+      "summary": "Developing a Working Relationship. Discussed classroom expectations and book and program strategies and tools.",
+      "sections": [
+        {
+          "id": "ch01-s01",
+          "title": "Introduction",
+          "content": "Welcome to the DWC program. This session focuses on establishing group norms and expectations.",
+          "order": 1
+        },
+        {
+          "id": "ch01-s02",
+          "title": "Program Tools",
+          "content": "Overview of strategies and tools used throughout the program.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "dwc-ch02",
+      "number": 2,
+      "title": "The Laws & Beyond The Laws",
+      "summary": "Guest speaker for SR-22 discussed process of getting drivers license back. Also, went over supplement packet on the current laws.",
+      "sections": [
+        {
+          "id": "ch02-s01",
+          "title": "Legal Requirements",
+          "content": "Understanding DUI laws and consequences.",
+          "order": 1
+        },
+        {
+          "id": "ch02-s02",
+          "title": "SR-22 Process",
+          "content": "Steps to reinstate driving privileges.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "dwc-ch03",
+      "number": 3,
+      "title": "How Thinking, Attitudes & Beliefs Control our Actions",
+      "summary": "Explored the connection between thoughts, attitudes, beliefs and behaviors.",
+      "sections": [
+        {
+          "id": "ch03-s01",
+          "title": "Cognitive Patterns",
+          "content": "Understanding how our thoughts influence our actions.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "dwc-ch04",
+      "number": 4,
+      "title": "How Behavior is Learned & Changed, Learning Self Control",
+      "summary": "Group discussed learning rules for positive and negative behaviors.",
+      "sections": [
+        {
+          "id": "ch04-s01",
+          "title": "Behavior Patterns",
+          "content": "Identifying and changing learned behaviors.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "dwc-ch09",
+      "number": 9,
+      "title": "Process & Steps To Preventing Relapse & Recidivism",
+      "summary": "Focus on radical acceptance and managing self-control to prevent relapse.",
+      "sections": [
+        {
+          "id": "ch09-s01",
+          "title": "Radical Acceptance",
+          "content": "Understanding and practicing radical acceptance in recovery.",
+          "order": 1
+        },
+        {
+          "id": "ch09-s02",
+          "title": "Self-Control Strategies",
+          "content": "Developing effective self-control mechanisms.",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "tags": ["DUI", "education", "therapy", "group"],
+    "sessionLength": "90 minutes",
+    "targetAudience": "DUI offenders in treatment"
+  }
+}

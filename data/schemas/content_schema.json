@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Content Schema",
+  "description": "Schema for a content block within a chapter section.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["paragraph", "list", "image", "table"]
+    },
+    "content": {
+      "type": ["string", "array"]
+    }
+  },
+  "required": ["id", "type", "content"]
+}

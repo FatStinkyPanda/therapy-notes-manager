@@ -1,0 +1,8 @@
+ttkbootstrap
+bcrypt
+pytest
+black
+flake8
+mypy
+PyPDF2
+python-docx

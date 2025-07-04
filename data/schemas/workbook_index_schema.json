@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Workbook Index Schema",
+  "description": "Schema for the index file that tracks all workbooks.",
+  "type": "object",
+  "properties": {
+    "workbooks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the workbook."
+          },
+          "title": {
+            "type": "string",
+            "description": "Title of the workbook."
+          },
+          "path": {
+            "type": "string",
+            "description": "Relative path to the workbook JSON file."
+          }
+        },
+        "required": ["id", "title", "path"]
+      }
+    }
+  },
+  "required": ["workbooks"]
+}

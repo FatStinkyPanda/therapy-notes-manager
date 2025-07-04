@@ -1,0 +1,5 @@
+{
+  "id": "default_therapy_note",
+  "name": "Default Therapy Note",
+  "content": "Session Date: $session_date\nClient: $client_name (ID: $client_id)\n\nTopics Discussed:\n- \n\nInterventions:\n- \n\nClient Progress:\n- \n\nPlan:\n- "
+}

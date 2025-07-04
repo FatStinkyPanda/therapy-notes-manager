@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0",
+  "project": {
+    "name": "therapy-notes-manager",
+    "type": "DesktopApplication",
+    "created": "2025-01-03T10:00:00Z",
+    "language": "Python",
+    "framework": "Tkinter",
+    "author": "Daniel Anthony Bissey (FatStinkyPanda)",
+    "contact": "support@fatstinkypanda.com",
+    "targetPlatform": "Windows"
+  },
+  "limits": {
+    "tasksPerFile": 25,
+    "entriesPerIndex": 100,
+    "maxFileSize": "100KB",
+    "maxIndexSize": "200KB"
+  },
+  "automation": {
+    "autoArchive": true,
+    "autoIndex": true,
+    "compressArchives": false,
+    "generateReports": true
+  },
+  "templates": {
+    "task": ".panda/templates/task.md",
+    "metadata": ".panda/templates/metadata.md",
+    "component": ".panda/templates/component.py",
+    "test": ".panda/templates/test.py"
+  },
+  "development": {
+    "testCommand": "pytest",
+    "buildCommand": "pyinstaller --onefile --windowed --name TherapyNotesManager src/main.py",
+    "lintCommand": "black . && flake8 && mypy src/",
+    "formatCommand": "black .",
+    "runCommand": "python src/main.py"
+  },
+  "quality": {
+    "testCoverage": 90,
+    "lintingRules": "strict",
+    "typeChecking": "strict",
+    "documentation": "required"
+  },
+  "security": {
+    "encryption": "bcrypt",
+    "rounds": 10,
+    "sensitiveDataHandling": "encrypted",
+    "auditLogging": true
+  }
+}

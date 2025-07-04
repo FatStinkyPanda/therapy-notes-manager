@@ -1,0 +1,48 @@
+[
+    {
+        "id": "default-therapy-note",
+        "name": "Default Therapy Note",
+        "content": "Therapy Group Note\n\nGroup Topic and Discussion: The client is attending level II group therapy sessions to address their DUI requirements. The topic of this session was to define what ${Group_Topic} is and provide examples of when the client experienced this in their life and what that process has looked like. This topic is congruent with session ${Session_Number} from DWC as it relates to the skill of managing self-control.\n\nAssessment/Client Statements: The client displayed an appropriate affect. ${Client_Pronoun_He/She} checked in about his week and did not report anything significant. ${Client_Pronoun_He/She} stated reaching acceptance was \"much easier when I got sober\". ${Client_Pronoun_He/She} reported he has maintained his sobriety and is practicing more self-control in other areas of his life.\n\nSkills & Activities Addressed During the Session: The client displayed active listening skills as evidenced by ${Client_Pronoun_his/her} focus and eye contact. ${Client_Pronoun_He/She} also learned more about accepting things out of his control. ${Client_Pronoun_He/She} received positive feedback concerning his sobriety.\n\nPlan: The plan for the client is to continue to work on the goals in their treatment plan, maintain sobriety, and return to the group therapy session on ${Next_Session_Date} at ${Next_Session_Time}.\n\nGoals Addressed: ${Goals_Addressed}",
+        "variables": {
+            "client_name": { "hint": "The client's full name." },
+            "client_id": { "hint": "The client's unique identifier." },
+            "client_dob": { "hint": "The client's date of birth." },
+            "date": { "hint": "The current date." },
+            "counselor_name": { "hint": "The name of the counselor." },
+            "workbook_content": { "hint": "The full content of the selected workbook chapters." },
+            "session_date": { "hint": "The date of the session." },
+            "session_time": { "hint": "The time of the session." },
+            "session_duration": { "hint": "The duration of the session." },
+            "chapter_summary": { "hint": "A summary of the selected chapter content." },
+            "Group_Topic": { "hint": "The main topic discussed in the group session." },
+            "Session_Number": { "hint": "The number of the current session." },
+            "Client_Pronoun_He/She": { "hint": "Enter 'He' or 'She' for the client." },
+            "Client_Pronoun_his/her": { "hint": "Enter 'his' or 'her' for the client." },
+            "Next_Session_Date": { "hint": "The date of the client's next session (e.g., YYYY-MM-DD)." },
+            "Next_Session_Time": { "hint": "The time of the client's next session (e.g., HH:MM AM/PM)." },
+            "Goals_Addressed": { "hint": "The specific treatment plan goals addressed in this session." }
+        }
+    },
+    {
+        "id": "default-education-note",
+        "name": "Default Education Note",
+        "content": "Education Group Note\n\nDescription of Current Issues: There were 13 group members present. The client is attending level II group therapy sessions to address their DUI requirements. The topic of this session was to define what ${Group_Topic} is and provide examples of when the client experienced this in their life and what that process has looked like. This topic is congruent with session ${Session_Number} from DWC as it relates to the skill of managing self-control.\n\nAssessment: The client displayed an appropriate yet flat affect. ${Client_Pronoun_He/She} consistently displays a flat affect. ${Client_Pronoun_He/She} checked in about her week and did not report anything significant. ${Client_Pronoun_He/She} shared a personal example of something she had to demonstrate radical acceptance with.\n\nPlan: The plan for the client is to continue to work on the goals in their treatment plan, maintain sobriety, and return to the group therapy session on ${Next_Session_Date} at ${Next_Session_Time}.",
+        "variables": {
+            "client_name": { "hint": "The client's full name." },
+            "client_id": { "hint": "The client's unique identifier." },
+            "client_dob": { "hint": "The client's date of birth." },
+            "date": { "hint": "The current date." },
+            "counselor_name": { "hint": "The name of the counselor." },
+            "workbook_content": { "hint": "The full content of the selected workbook chapters." },
+            "session_date": { "hint": "The date of the session." },
+            "session_time": { "hint": "The time of the session." },
+            "session_duration": { "hint": "The duration of the session." },
+            "chapter_summary": { "hint": "A summary of the selected chapter content." },
+            "Group_Topic": { "hint": "The main topic discussed in the group session." },
+            "Session_Number": { "hint": "The number of the current session." },
+            "Client_Pronoun_He/She": { "hint": "Enter 'He' or 'She' for the client." },
+            "Next_Session_Date": { "hint": "The date of the client's next session (e.g., YYYY-MM-DD)." },
+            "Next_Session_Time": { "hint": "The time of the client's next session (e.g., HH:MM AM/PM)." }
+        }
+    }
+]

@@ -1,0 +1,427 @@
+2025-07-04 09:30:14,121 [INFO] Application started.
+2025-07-04 09:30:21,369 [INFO] Adding workbook: test
+2025-07-04 09:30:34,639 [INFO] Searching for workbook with ID: 735215d3-de3e-4839-9e9a-319841be5077
+2025-07-04 09:30:34,639 [INFO] Checking workbook: 735215d3-de3e-4839-9e9a-319841be5077
+2025-07-04 09:30:34,640 [INFO] Found workbook: test
+2025-07-04 09:30:45,991 [INFO] Searching for workbook with ID: 735215d3-de3e-4839-9e9a-319841be5077
+2025-07-04 09:30:45,992 [INFO] Checking workbook: 735215d3-de3e-4839-9e9a-319841be5077
+2025-07-04 09:30:45,992 [INFO] Found workbook: test
+2025-07-04 09:31:17,270 [INFO] Application closed.
+2025-07-04 09:31:34,916 [INFO] Application started.
+2025-07-04 09:31:42,324 [INFO] Adding workbook: tests
+2025-07-04 09:31:53,520 [INFO] Searching for workbook with ID: e0d5c3f2-9b24-4f0f-bf76-845879d60197
+2025-07-04 09:31:53,521 [INFO] Checking workbook: e0d5c3f2-9b24-4f0f-bf76-845879d60197
+2025-07-04 09:31:53,521 [INFO] Found workbook: tests
+2025-07-04 09:32:02,430 [INFO] Searching for workbook with ID: e0d5c3f2-9b24-4f0f-bf76-845879d60197
+2025-07-04 09:32:02,430 [INFO] Checking workbook: e0d5c3f2-9b24-4f0f-bf76-845879d60197
+2025-07-04 09:32:02,431 [INFO] Found workbook: tests
+2025-07-04 09:32:13,806 [INFO] Application closed.
+2025-07-04 09:32:40,871 [INFO] Application started.
+2025-07-04 09:32:48,650 [INFO] Adding workbook: test
+2025-07-04 09:33:00,190 [INFO] add_chapter called
+2025-07-04 09:33:00,191 [INFO] Searching for workbook with ID: a7efed69-4286-4f80-a3cf-dbb19e025ada
+2025-07-04 09:33:00,191 [INFO] Checking workbook: a7efed69-4286-4f80-a3cf-dbb19e025ada
+2025-07-04 09:33:00,191 [INFO] Found workbook: test
+2025-07-04 09:33:12,039 [INFO] Searching for workbook with ID: a7efed69-4286-4f80-a3cf-dbb19e025ada
+2025-07-04 09:33:12,039 [INFO] Checking workbook: a7efed69-4286-4f80-a3cf-dbb19e025ada
+2025-07-04 09:33:12,040 [INFO] Found workbook: test
+2025-07-04 09:33:12,055 [INFO] Updated chapter title: New Chapter
+2025-07-04 09:33:48,860 [INFO] Application closed.
+2025-07-04 09:34:09,614 [INFO] Application started.
+2025-07-04 09:34:17,107 [INFO] Adding workbook: test
+2025-07-04 09:34:26,291 [INFO] add_chapter called
+2025-07-04 09:34:26,292 [INFO] Searching for workbook with ID: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:34:26,292 [INFO] Checking workbook: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:34:26,293 [INFO] Found workbook: test
+2025-07-04 09:34:35,592 [INFO] save_and_close called
+2025-07-04 09:34:35,592 [INFO] Searching for workbook with ID: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:34:35,592 [INFO] Checking workbook: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:34:35,593 [INFO] Found workbook: test
+2025-07-04 09:34:35,607 [INFO] Updated chapter title: New Chapter
+2025-07-04 09:34:40,252 [INFO] add_chapter called
+2025-07-04 09:34:40,254 [INFO] Searching for workbook with ID: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:34:40,254 [INFO] Checking workbook: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:34:40,255 [INFO] Found workbook: test
+2025-07-04 09:34:43,982 [INFO] save_and_close called
+2025-07-04 09:34:43,982 [INFO] Searching for workbook with ID: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:34:43,983 [INFO] Checking workbook: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:34:43,983 [INFO] Found workbook: test
+2025-07-04 09:34:44,002 [INFO] Updated chapter title: New Chapter 1
+2025-07-04 09:34:44,004 [INFO] Adding new chapter: New Chapter 1
+2025-07-04 09:34:44,005 [INFO] Updating workbook: test
+2025-07-04 09:34:44,009 [INFO] Workbook 'test' updated successfully.
+2025-07-04 09:35:01,680 [INFO] Searching for workbook with ID: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:35:01,681 [INFO] Checking workbook: 230c4543-f21c-42b3-86b6-e9f5c467f69d
+2025-07-04 09:35:01,681 [INFO] Found workbook: test
+2025-07-04 09:36:36,706 [INFO] Application started.
+2025-07-04 09:36:39,345 [INFO] Application closed.
+2025-07-04 09:36:58,233 [INFO] Adding workbook: Driving With Care
+2025-07-04 09:37:08,573 [INFO] add_chapter called
+2025-07-04 09:37:08,574 [INFO] Searching for workbook with ID: 70bf1af8-5a4a-48b2-b38f-289a2ffb5d4c
+2025-07-04 09:37:08,574 [INFO] Checking workbook: 70bf1af8-5a4a-48b2-b38f-289a2ffb5d4c
+2025-07-04 09:37:08,574 [INFO] Found workbook: Driving With Care
+2025-07-04 09:37:19,002 [INFO] save_and_close called
+2025-07-04 09:37:19,003 [INFO] Searching for workbook with ID: 70bf1af8-5a4a-48b2-b38f-289a2ffb5d4c
+2025-07-04 09:37:19,003 [INFO] Checking workbook: 70bf1af8-5a4a-48b2-b38f-289a2ffb5d4c
+2025-07-04 09:37:19,003 [INFO] Found workbook: Driving With Care
+2025-07-04 09:37:19,019 [INFO] Updated chapter title: New Chapter
+2025-07-04 09:37:19,021 [INFO] Adding new chapter: New Chapter
+2025-07-04 09:37:19,022 [INFO] Updating workbook: Driving With Care
+2025-07-04 09:37:19,024 [INFO] Workbook 'Driving With Care' updated successfully.
+2025-07-04 09:37:48,408 [INFO] Searching for workbook with ID: 70bf1af8-5a4a-48b2-b38f-289a2ffb5d4c
+2025-07-04 09:37:48,409 [INFO] Checking workbook: 70bf1af8-5a4a-48b2-b38f-289a2ffb5d4c
+2025-07-04 09:37:48,409 [INFO] Found workbook: Driving With Care
+2025-07-04 09:51:29,882 [INFO] Application started.
+2025-07-04 09:52:25,217 [INFO] Adding workbook: test
+2025-07-04 09:52:39,227 [INFO] add_chapter called
+2025-07-04 09:52:39,228 [INFO] Searching for workbook with ID: d92e3a70-abcf-4cef-9c74-cd2dcaab63ca
+2025-07-04 09:52:39,228 [INFO] Checking workbook: d92e3a70-abcf-4cef-9c74-cd2dcaab63ca
+2025-07-04 09:52:39,228 [INFO] Found workbook: test
+2025-07-04 09:52:40,753 [INFO] save_and_close called
+2025-07-04 09:52:40,754 [INFO] Searching for workbook with ID: d92e3a70-abcf-4cef-9c74-cd2dcaab63ca
+2025-07-04 09:52:40,754 [INFO] Checking workbook: d92e3a70-abcf-4cef-9c74-cd2dcaab63ca
+2025-07-04 09:52:40,754 [INFO] Found workbook: test
+2025-07-04 09:52:40,770 [INFO] Updated chapter title: New Chapter
+2025-07-04 09:52:40,773 [INFO] Adding new chapter: New Chapter
+2025-07-04 09:52:40,773 [INFO] Updating workbook: test
+2025-07-04 09:52:40,775 [INFO] Workbook 'test' updated successfully.
+2025-07-04 09:53:03,028 [INFO] Application closed.
+2025-07-04 09:53:05,019 [INFO] Application closed.
+2025-07-04 09:54:07,791 [INFO] Application started.
+2025-07-04 09:54:26,633 [INFO] Adding workbook: test
+2025-07-04 09:54:37,984 [INFO] add_chapter called
+2025-07-04 09:54:37,985 [INFO] Searching for workbook with ID: 12ff2be9-7d3c-4ae0-8d74-312142267802
+2025-07-04 09:54:37,985 [INFO] Checking workbook: 12ff2be9-7d3c-4ae0-8d74-312142267802
+2025-07-04 09:54:37,985 [INFO] Found workbook: test
+2025-07-04 09:54:49,579 [INFO] save_and_close called
+2025-07-04 09:54:49,579 [INFO] Searching for workbook with ID: 12ff2be9-7d3c-4ae0-8d74-312142267802
+2025-07-04 09:54:49,580 [INFO] Checking workbook: 12ff2be9-7d3c-4ae0-8d74-312142267802
+2025-07-04 09:54:49,580 [INFO] Found workbook: test
+2025-07-04 09:54:49,598 [INFO] Updated chapter title: New Chapter
+2025-07-04 09:54:49,605 [INFO] Adding new chapter: New Chapter
+2025-07-04 09:54:49,606 [INFO] Updating workbook: test
+2025-07-04 09:54:49,607 [INFO] Workbook 'test' updated successfully.
+2025-07-04 09:55:30,318 [INFO] Application closed.
+2025-07-04 09:57:57,433 [INFO] Application started.
+2025-07-04 09:58:27,815 [INFO] Adding workbook: Driving With Care Leveel II Therapy
+2025-07-04 09:58:41,399 [INFO] Application closed.
+2025-07-04 09:59:03,720 [INFO] Application started.
+2025-07-04 09:59:18,965 [INFO] Adding workbook: Driving With Care Level II Therapy
+2025-07-04 10:00:01,423 [INFO] add_chapter called
+2025-07-04 10:00:01,424 [INFO] Searching for workbook with ID: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:00:01,424 [INFO] Checking workbook: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:00:01,425 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 10:01:31,113 [INFO] save_and_close called
+2025-07-04 10:01:31,114 [INFO] Searching for workbook with ID: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:01:31,114 [INFO] Checking workbook: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:01:31,115 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 10:01:31,132 [INFO] Updated chapter title: Chapter 1
+2025-07-04 10:01:31,134 [INFO] Adding new chapter: Chapter 1
+2025-07-04 10:01:31,136 [INFO] Updating workbook: Driving With Care Level II Therapy
+2025-07-04 10:01:31,143 [INFO] Workbook 'Driving With Care Level II Therapy' updated successfully.
+2025-07-04 10:02:04,040 [INFO] Application closed.
+2025-07-04 10:02:38,575 [INFO] Application started.
+2025-07-04 10:03:43,270 [INFO] Searching for workbook with ID: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:03:43,270 [INFO] Checking workbook: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:03:43,270 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 10:04:17,634 [INFO] Searching for workbook with ID: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:04:17,635 [INFO] Checking workbook: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:04:17,635 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 10:04:22,108 [INFO] Searching for workbook with ID: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:04:22,108 [INFO] Checking workbook: 0695ff37-9dca-4fb5-92e2-322b32dfaaa9
+2025-07-04 10:04:22,108 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 10:04:59,468 [INFO] Application closed.
+2025-07-04 10:08:09,733 [INFO] Application started.
+2025-07-04 10:08:32,301 [INFO] Application started.
+2025-07-04 10:09:47,230 [INFO] Application closed.
+2025-07-04 10:10:10,211 [INFO] Application started.
+2025-07-04 10:13:25,822 [INFO] Application closed.
+2025-07-04 10:13:27,233 [INFO] Application started.
+2025-07-04 10:14:31,986 [INFO] Application closed.
+2025-07-04 10:15:01,892 [INFO] Application started.
+2025-07-04 10:16:38,582 [INFO] Adding workbook: Driving With Care Level II Therapy
+2025-07-04 10:16:41,342 [INFO] add_chapter called
+2025-07-04 10:16:41,342 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 10:16:41,343 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 10:16:41,343 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 10:17:01,734 [INFO] save_and_close called
+2025-07-04 10:17:01,735 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 10:17:01,735 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 10:17:01,736 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 10:17:01,750 [INFO] Updated chapter title: Chapter 1
+2025-07-04 10:17:01,752 [INFO] Adding new chapter: Chapter 1
+2025-07-04 10:17:01,753 [INFO] Updating workbook: Driving With Care Level II Therapy
+2025-07-04 10:17:01,753 [INFO] Workbook 'Driving With Care Level II Therapy' updated successfully.
+2025-07-04 10:19:07,832 [INFO] Application closed.
+2025-07-04 10:20:30,006 [INFO] Application started.
+2025-07-04 10:21:12,647 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 10:21:12,647 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 10:21:12,647 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 10:21:26,706 [INFO] Application closed.
+2025-07-04 10:45:16,179 [INFO] Application started.
+2025-07-04 10:47:39,628 [INFO] Application closed.
+2025-07-04 10:47:57,762 [INFO] Application started.
+2025-07-04 10:48:29,386 [INFO] Application closed.
+2025-07-04 10:49:00,223 [INFO] Application started.
+2025-07-04 10:49:30,878 [INFO] Application started.
+2025-07-04 10:50:22,422 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 10:50:22,422 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 10:50:22,423 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:00:40,265 [INFO] Application started.
+2025-07-04 11:03:13,088 [INFO] Application closed.
+2025-07-04 11:03:15,159 [INFO] Application closed.
+2025-07-04 11:04:29,067 [INFO] Application started.
+2025-07-04 11:04:50,327 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:04:50,328 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:04:50,328 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:05:02,149 [INFO] edit_chapter called
+2025-07-04 11:05:02,150 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:05:02,150 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:05:02,150 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:05:07,705 [INFO] Updating chapter: Chapter 1
+2025-07-04 11:05:07,706 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:05:07,706 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:05:07,706 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:05:07,707 [INFO] Updated chapter 'Chapter 1' in workbook 'Driving With Care Level II Therapy'.
+2025-07-04 11:06:43,095 [INFO] Application closed.
+2025-07-04 11:17:08,995 [INFO] Application started.
+2025-07-04 11:17:38,089 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:17:38,089 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:17:38,089 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:17:41,076 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:17:41,076 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:17:41,076 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:17:49,377 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:17:49,378 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:17:49,378 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:23:45,754 [INFO] Application closed.
+2025-07-04 11:29:20,013 [INFO] Application started.
+2025-07-04 11:29:41,771 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:29:41,772 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:29:41,772 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:32:50,122 [INFO] Application started.
+2025-07-04 11:35:45,000 [INFO] Application closed.
+2025-07-04 11:37:00,647 [INFO] Application started.
+2025-07-04 11:38:01,492 [INFO] Application started.
+2025-07-04 11:38:55,702 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:38:55,702 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:38:55,702 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:39:54,018 [INFO] Application closed.
+2025-07-04 11:40:13,571 [INFO] Application started.
+2025-07-04 11:40:54,747 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:40:54,747 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:40:54,747 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:42:46,762 [INFO] Application closed.
+2025-07-04 11:43:15,346 [INFO] Application started.
+2025-07-04 11:45:34,297 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:45:34,298 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:45:34,298 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:47:49,966 [INFO] Application closed.
+2025-07-04 11:47:55,984 [INFO] Application started.
+2025-07-04 11:48:27,483 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:48:27,484 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:48:27,484 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:52:28,728 [INFO] Application closed.
+2025-07-04 11:52:32,776 [INFO] Application started.
+2025-07-04 11:53:12,111 [INFO] Searching for workbook with ID: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:53:12,112 [INFO] Checking workbook: 4844a8b3-e622-4fac-b853-41e5f58e78dc
+2025-07-04 11:53:12,112 [INFO] Found workbook: Driving With Care Level II Therapy
+2025-07-04 11:53:51,825 [INFO] Application closed.
+2025-07-04 11:53:54,207 [INFO] Application started.
+2025-07-04 11:57:15,379 [INFO] Application closed.
+2025-07-04 11:57:41,396 [INFO] Application started.
+2025-07-04 11:58:13,124 [INFO] Application closed.
+2025-07-04 11:58:16,124 [INFO] Application started.
+2025-07-04 12:01:29,542 [INFO] Application closed.
+2025-07-04 12:01:30,483 [INFO] Application started.
+2025-07-04 12:01:35,108 [INFO] Application closed.
+2025-07-04 12:01:37,421 [INFO] Application started.
+2025-07-04 12:02:06,049 [INFO] Application closed.
+2025-07-04 12:05:29,725 [INFO] Application started.
+2025-07-04 12:07:03,757 [INFO] Application closed.
+2025-07-04 12:07:08,360 [INFO] Application started.
+2025-07-04 12:10:44,597 [INFO] Application closed.
+2025-07-04 12:10:47,680 [INFO] Application started.
+2025-07-04 12:12:39,543 [INFO] Adding workbook: Driving With Care
+2025-07-04 12:12:41,979 [INFO] add_chapter called
+2025-07-04 12:12:41,979 [INFO] Searching for workbook with ID: 1aab2ae6-3101-4127-b3ff-554defca240a
+2025-07-04 12:12:41,980 [INFO] Checking workbook: 1aab2ae6-3101-4127-b3ff-554defca240a
+2025-07-04 12:12:41,980 [INFO] Found workbook: Driving With Care
+2025-07-04 12:12:56,099 [INFO] save_and_close called
+2025-07-04 12:12:56,099 [INFO] Searching for workbook with ID: 1aab2ae6-3101-4127-b3ff-554defca240a
+2025-07-04 12:12:56,100 [INFO] Checking workbook: 1aab2ae6-3101-4127-b3ff-554defca240a
+2025-07-04 12:12:56,100 [INFO] Found workbook: Driving With Care
+2025-07-04 12:12:56,116 [INFO] Updated chapter title: New Chapter
+2025-07-04 12:12:56,117 [INFO] Adding new chapter: New Chapter
+2025-07-04 12:12:56,118 [INFO] Updating workbook: Driving With Care
+2025-07-04 12:12:56,118 [INFO] Workbook 'Driving With Care' updated successfully.
+2025-07-04 12:12:57,448 [INFO] Searching for workbook with ID: 1aab2ae6-3101-4127-b3ff-554defca240a
+2025-07-04 12:12:57,449 [INFO] Checking workbook: 1aab2ae6-3101-4127-b3ff-554defca240a
+2025-07-04 12:12:57,449 [INFO] Found workbook: Driving With Care
+2025-07-04 12:13:02,626 [INFO] Searching for workbook with ID: 1aab2ae6-3101-4127-b3ff-554defca240a
+2025-07-04 12:13:02,626 [INFO] Checking workbook: 1aab2ae6-3101-4127-b3ff-554defca240a
+2025-07-04 12:13:02,626 [INFO] Found workbook: Driving With Care
+2025-07-04 12:14:18,433 [INFO] Application closed.
+2025-07-04 12:15:16,103 [INFO] Application started.
+2025-07-04 12:15:50,551 [INFO] Adding workbook: test book
+2025-07-04 12:15:54,369 [INFO] add_chapter called
+2025-07-04 12:15:54,369 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:15:54,369 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:15:54,370 [INFO] Found workbook: test book
+2025-07-04 12:16:11,315 [INFO] save_and_close called
+2025-07-04 12:16:11,316 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:16:11,316 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:16:11,316 [INFO] Found workbook: test book
+2025-07-04 12:16:11,332 [INFO] Updated chapter title: New Chapter
+2025-07-04 12:16:11,333 [INFO] Adding new chapter: New Chapter
+2025-07-04 12:16:11,340 [INFO] Updating workbook: test book
+2025-07-04 12:16:11,340 [INFO] Workbook 'test book' updated successfully.
+2025-07-04 12:16:24,121 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:16:24,121 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:16:24,122 [INFO] Found workbook: test book
+2025-07-04 12:16:52,868 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:16:52,869 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:16:52,869 [INFO] Found workbook: test book
+2025-07-04 12:18:51,167 [INFO] Application closed.
+2025-07-04 12:18:54,507 [INFO] Application started.
+2025-07-04 12:19:17,828 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:19:17,829 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:19:17,829 [INFO] Found workbook: test book
+2025-07-04 12:21:10,516 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:21:10,517 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:21:10,517 [INFO] Found workbook: test book
+2025-07-04 12:21:40,416 [INFO] Application closed.
+2025-07-04 12:21:44,152 [INFO] Application started.
+2025-07-04 12:22:14,580 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:22:14,580 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:22:14,581 [INFO] Found workbook: test book
+2025-07-04 12:28:50,229 [INFO] Application closed.
+2025-07-04 12:31:33,866 [INFO] Application started.
+2025-07-04 12:32:04,321 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:32:04,321 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:32:04,321 [INFO] Found workbook: test book
+2025-07-04 12:32:55,389 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:32:55,390 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:32:55,390 [INFO] Found workbook: test book
+2025-07-04 12:34:56,180 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:34:56,181 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:34:56,181 [INFO] Found workbook: test book
+2025-07-04 12:35:01,244 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:35:01,259 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:35:01,259 [INFO] Found workbook: test book
+2025-07-04 12:35:13,914 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:35:13,915 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:35:13,915 [INFO] Found workbook: test book
+2025-07-04 12:35:33,028 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:35:33,029 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:35:33,029 [INFO] Found workbook: test book
+2025-07-04 12:41:58,337 [INFO] Application closed.
+2025-07-04 12:42:01,341 [INFO] Application started.
+2025-07-04 12:43:10,122 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:43:10,122 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:43:10,123 [INFO] Found workbook: test book
+2025-07-04 12:46:58,852 [INFO] Application closed.
+2025-07-04 12:47:02,325 [INFO] Application started.
+2025-07-04 12:47:29,942 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:47:29,942 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:47:29,942 [INFO] Found workbook: test book
+2025-07-04 12:47:42,258 [INFO] Application closed.
+2025-07-04 12:49:15,939 [INFO] Application started.
+2025-07-04 12:49:39,667 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:49:39,668 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:49:39,668 [INFO] Found workbook: test book
+2025-07-04 12:49:49,215 [INFO] Application closed.
+2025-07-04 12:50:44,535 [INFO] Application started.
+2025-07-04 12:51:00,561 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:51:00,561 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:51:00,562 [INFO] Found workbook: test book
+2025-07-04 12:51:12,391 [INFO] Application closed.
+2025-07-04 12:53:34,869 [INFO] Application started.
+2025-07-04 12:53:51,270 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:53:51,270 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:53:51,271 [INFO] Found workbook: test book
+2025-07-04 12:54:15,984 [INFO] Application closed.
+2025-07-04 12:54:57,510 [INFO] Application started.
+2025-07-04 12:55:10,894 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:55:10,895 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:55:10,895 [INFO] Found workbook: test book
+2025-07-04 12:55:34,819 [INFO] Application closed.
+2025-07-04 12:56:11,522 [INFO] Application started.
+2025-07-04 12:56:24,591 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:56:24,592 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 12:56:24,592 [INFO] Found workbook: test book
+2025-07-04 12:58:39,956 [INFO] Application started.
+2025-07-04 13:06:30,253 [INFO] Application closed.
+2025-07-04 13:06:34,416 [INFO] Application started.
+2025-07-04 13:08:27,065 [INFO] Application closed.
+2025-07-04 13:08:29,027 [INFO] Application started.
+2025-07-04 13:10:29,099 [INFO] Application closed.
+2025-07-04 13:10:36,090 [INFO] Application started.
+2025-07-04 13:11:46,114 [INFO] Application closed.
+2025-07-04 13:11:47,553 [INFO] Application started.
+2025-07-04 13:13:08,114 [INFO] Application closed.
+2025-07-04 13:13:14,383 [INFO] Application started.
+2025-07-04 13:14:35,946 [INFO] Application closed.
+2025-07-04 13:15:00,496 [INFO] Application started.
+2025-07-04 13:15:46,355 [INFO] Application closed.
+2025-07-04 13:15:50,298 [INFO] Application started.
+2025-07-04 13:16:21,261 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:16:21,262 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:16:21,262 [INFO] Found workbook: test book
+2025-07-04 13:16:29,735 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:16:29,736 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:16:29,737 [INFO] Found workbook: test book
+2025-07-04 13:18:53,492 [INFO] Application closed.
+2025-07-04 13:21:26,699 [INFO] Application started.
+2025-07-04 13:21:52,988 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:21:52,989 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:21:52,989 [INFO] Found workbook: test book
+2025-07-04 13:23:38,924 [INFO] Application closed.
+2025-07-04 13:23:56,127 [INFO] Application started.
+2025-07-04 13:24:12,946 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:24:12,946 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:24:12,946 [INFO] Found workbook: test book
+2025-07-04 13:26:42,458 [INFO] Application closed.
+2025-07-04 13:26:44,495 [INFO] Application started.
+2025-07-04 13:26:59,182 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:26:59,184 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:26:59,185 [INFO] Found workbook: test book
+2025-07-04 13:27:08,480 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:27:08,481 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:27:08,481 [INFO] Found workbook: test book
+2025-07-04 13:27:24,652 [INFO] Application closed.
+2025-07-04 13:28:08,624 [INFO] Application started.
+2025-07-04 13:28:24,096 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:28:24,097 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:28:24,097 [INFO] Found workbook: test book
+2025-07-04 13:29:07,629 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:29:07,630 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:29:07,630 [INFO] Found workbook: test book
+2025-07-04 13:30:38,526 [INFO] Application closed.
+2025-07-04 13:30:41,254 [INFO] Application started.
+2025-07-04 13:31:58,494 [INFO] Application closed.
+2025-07-04 13:32:02,895 [INFO] Application started.
+2025-07-04 13:32:31,152 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:32:31,152 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:32:31,153 [INFO] Found workbook: test book
+2025-07-04 13:37:06,331 [INFO] Application closed.
+2025-07-04 13:37:08,504 [INFO] Application started.
+2025-07-04 13:38:29,954 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:38:29,955 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:38:29,956 [INFO] Found workbook: test book
+2025-07-04 13:40:52,705 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:40:52,706 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:40:52,706 [INFO] Found workbook: test book
+2025-07-04 13:41:14,547 [INFO] Application closed.
+2025-07-04 13:42:49,068 [INFO] Application started.
+2025-07-04 13:43:03,107 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:43:03,107 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:43:03,108 [INFO] Found workbook: test book
+2025-07-04 13:49:30,587 [INFO] Application closed.
+2025-07-04 13:50:02,398 [INFO] Application started.
+2025-07-04 13:51:48,711 [INFO] Searching for workbook with ID: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:51:48,711 [INFO] Checking workbook: 64f1c906-7f2a-48ea-9f33-2c93e51d7ed4
+2025-07-04 13:51:48,712 [INFO] Found workbook: test book
+2025-07-04 13:57:48,311 [INFO] Application closed.
+2025-07-04 13:57:53,862 [INFO] Application started.
+2025-07-04 13:59:31,208 [INFO] Application closed.

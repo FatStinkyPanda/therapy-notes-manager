@@ -1,0 +1,16 @@
+{
+  "general": {
+    "counselor_name": "Dr. Panda"
+  },
+  "paths": {
+    "workbooks": "data/workbooks",
+    "templates": "data/templates",
+    "output": "output"
+  },
+  "ui": {
+    "theme": "superhero"
+  },
+  "counselor_name": "",
+  "date_format": "%B %d, %Y",
+  "time_format": "%I:%M %p"
+}

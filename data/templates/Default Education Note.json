@@ -1,0 +1,5 @@
+{
+    "id": "default_education_note",
+    "name": "Default Education Note",
+    "content": "Session Date: $session_date\nClient: $client_name (ID: $client_id)\n\nWorkbook: $workbook_title\nChapter: $chapter_title\n\nContent Covered:\n- $section_content\n\nClient Understanding:\n- ${Agency_Name_AGL}${test}${test_Blank}\n\nNext Steps:\n-"
+}

@@ -1,0 +1,1 @@
+"Read START_AI_DEVELOPMENT.txt and continue developing the Therapy Notes Manager project."

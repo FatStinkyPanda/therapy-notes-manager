@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Workbook Schema",
+  "description": "Schema for a single workbook file.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "$ref": "chapter_schema.json"
+      }
+    }
+  },
+  "required": ["id", "title", "chapters"]
+}

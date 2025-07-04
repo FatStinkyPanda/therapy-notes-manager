@@ -21,6 +21,11 @@ This project was developed in less than 48 hours from start to finish using the 
 
 *   Windows 10 or later
 
+### Installation
+
+1.  Download the latest installer from the [releases page](https://github.com/your-username/therapy-notes-manager/releases).
+2.  Run the installer and follow the on-screen instructions.
+
 ## How it Works
 
 The Therapy Notes Manager is a desktop application built with Python and the `tkinter` and `ttkbootstrap` libraries. It uses a local JSON-based file system to store all data, which is then encrypted using a user-provided password.
