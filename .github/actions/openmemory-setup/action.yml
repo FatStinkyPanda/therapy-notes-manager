@@ -96,19 +96,16 @@ runs:
         OPENMEMORY_URL=${{ inputs.openmemory-url }}
         EOF
 
-        # Add to .gitignore if it exists
+        # Remove .openmemory from .gitignore if it exists
+        # (We want to track .openmemory so all team members get the config)
         if [ -f ".gitignore" ]; then
-          if ! grep -q ".openmemory" .gitignore; then
-            echo "" >> .gitignore
-            echo "# OpenMemory-Code" >> .gitignore
-            echo ".openmemory" >> .gitignore
-          fi
-        else
-          # Create .gitignore
-          cat > .gitignore << EOF
-        # OpenMemory-Code
-        .openmemory
-        EOF
+          # Remove .openmemory from .gitignore
+          sed -i '/^\.openmemory$/d' .gitignore
+          sed -i '/^# OpenMemory$/d' .gitignore
+          sed -i '/^# OpenMemory-Code$/d' .gitignore
+
+          # Clean up empty lines
+          sed -i '/^$/N;/^\n$/D' .gitignore
         fi
 
         # Update template files with project name
@@ -208,8 +205,9 @@ runs:
         git config user.name "OpenMemory-Code Bot"
         git config user.email "bot@openmemory-code.local"
 
-        # Add files
-        git add .ai-agents .openmemory .gitignore
+        # Add files (force-add .openmemory in case it's still in .gitignore)
+        git add .ai-agents .gitignore
+        git add -f .openmemory
 
         # Check if there are changes to commit
         if git diff --staged --quiet; then
