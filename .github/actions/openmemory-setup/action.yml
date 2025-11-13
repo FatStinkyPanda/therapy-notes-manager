@@ -99,13 +99,16 @@ runs:
         # Remove .openmemory from .gitignore if it exists
         # (We want to track .openmemory so all team members get the config)
         if [ -f ".gitignore" ]; then
-          # Remove .openmemory from .gitignore
-          sed -i '/^\.openmemory$/d' .gitignore
-          sed -i '/^# OpenMemory$/d' .gitignore
-          sed -i '/^# OpenMemory-Code$/d' .gitignore
-
-          # Clean up empty lines
-          sed -i '/^$/N;/^\n$/D' .gitignore
+          echo "Checking .gitignore for .openmemory..."
+          if grep -q "\.openmemory" .gitignore 2>/dev/null; then
+            echo "Found .openmemory in .gitignore - removing it..."
+            # Use grep to filter out lines, more reliable than sed
+            grep -v "^\.openmemory$" .gitignore | grep -v "^# OpenMemory$" | grep -v "^# OpenMemory-Code$" > .gitignore.tmp
+            mv .gitignore.tmp .gitignore
+            echo "✅ Removed .openmemory from .gitignore"
+          else
+            echo ".openmemory not in .gitignore - no changes needed"
+          fi
         fi
 
         # Update template files with project name
@@ -205,9 +208,18 @@ runs:
         git config user.name "OpenMemory-Code Bot"
         git config user.email "bot@openmemory-code.local"
 
-        # Add files (force-add .openmemory in case it's still in .gitignore)
-        git add .ai-agents .gitignore
-        git add -f .openmemory
+        # Add files in order (force-add .openmemory first to avoid gitignore issues)
+        echo "Adding .ai-agents folder..."
+        git add .ai-agents
+
+        echo "Force-adding .openmemory (ignore gitignore)..."
+        git add -f .openmemory 2>&1 || echo "Note: .openmemory may not exist yet"
+
+        # Add .gitignore only if it exists (may have been modified to allow .openmemory)
+        if [ -f ".gitignore" ]; then
+          echo "Adding .gitignore..."
+          git add .gitignore
+        fi
 
         # Check if there are changes to commit
         if git diff --staged --quiet; then
@@ -219,6 +231,7 @@ runs:
         - Created .openmemory link file
         - Configured git hooks for AI agent enforcement
         - Set up logging and context management
+        - Updated .gitignore to track .openmemory for team collaboration
 
         Automated by GitHub Actions" || echo "Commit failed (may already exist)"
         fi
