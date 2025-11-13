@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Logs and traces
+logs/*.log
+logs/archive/
+traces/*.json
+
+# Backups
+backups/
+
+# Environment files (these are templates, actual configs are protected)
+# .env files are tracked because they contain default values
+# Users should not commit their customized versions
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

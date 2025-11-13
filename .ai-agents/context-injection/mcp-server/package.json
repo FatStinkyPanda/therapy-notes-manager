@@ -1,0 +1,46 @@
+{
+  "name": "openmemory-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server providing OpenMemory context to Claude Desktop and other MCP clients",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "openmemory-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "node -e \"try{require('fs').chmodSync('dist/index.js',0o755)}catch(e){}\"",
+    "dev": "tsx src/index.ts",
+    "watch": "tsx watch src/index.ts",
+    "http-gateway": "tsx src/http-gateway.ts",
+    "http-gateway:build": "tsc && node dist/http-gateway.js",
+    "http-gateway-secure": "tsx src/http-gateway-secure.ts",
+    "http-gateway-secure:build": "tsc && node dist/http-gateway-secure.js",
+    "mcp-sse-oauth": "tsx src/mcp-sse-oauth.ts",
+    "mcp-sse-oauth:build": "tsc && node dist/mcp-sse-oauth.js",
+    "mcp-sse-oauth-authcode": "tsx src/mcp-sse-oauth-authcode.ts",
+    "mcp-sse-oauth-authcode:build": "tsc && node dist/mcp-sse-oauth-authcode.js",
+    "mcp-sse-oauth-authcode-full": "tsx src/mcp-sse-oauth-authcode-full.ts",
+    "mcp-sse-oauth-authcode-full:build": "tsc && node dist/mcp-sse-oauth-authcode-full.js"
+  },
+  "keywords": [
+    "mcp",
+    "openmemory",
+    "claude",
+    "context"
+  ],
+  "author": "OpenMemory AI Agents",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

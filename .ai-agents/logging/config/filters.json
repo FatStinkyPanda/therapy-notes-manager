@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "keywords": {
+    "enabled": true,
+    "list": [
+      "error",
+      "failed",
+      "exception",
+      "warning",
+      "critical"
+    ],
+    "caseSensitive": false
+  },
+  "regex": {
+    "enabled": true,
+    "patterns": [
+      {
+        "name": "error-codes",
+        "pattern": "ERR\\d{4}",
+        "description": "Match error codes like ERR1234"
+      },
+      {
+        "name": "performance-slow",
+        "pattern": "took \\d+ (ms|seconds) \\(threshold exceeded\\)",
+        "description": "Match performance warnings"
+      },
+      {
+        "name": "api-failures",
+        "pattern": "API request failed: \\w+",
+        "description": "Match API failure messages"
+      }
+    ]
+  },
+  "exclude": {
+    "enabled": true,
+    "patterns": [
+      "DEBUG:",
+      "TRACE:"
+    ],
+    "description": "Patterns to exclude from certain log files"
+  }
+}

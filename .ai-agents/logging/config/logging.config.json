@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "logLevels": {
+    "main": ["info", "warn", "error", "fatal"],
+    "error": ["error", "fatal"],
+    "ai-agent": ["info", "warn", "error", "debug"],
+    "api": ["info", "error"],
+    "debug": ["debug", "trace"],
+    "system": ["info", "warn", "error"],
+    "performance": ["info", "warn"]
+  },
+  "rotation": {
+    "maxSizeMB": 100,
+    "maxAgeDays": 1,
+    "compress": true,
+    "checkIntervalMinutes": 60
+  },
+  "archive": {
+    "enabled": true,
+    "retentionDays": 30,
+    "compress": true,
+    "maxSizeGB": 10
+  },
+  "filters": {
+    "enabled": true,
+    "configFile": "filters.json",
+    "keywords": [],
+    "regex": []
+  },
+  "performance": {
+    "asyncWrites": true,
+    "bufferSizeKB": 64,
+    "flushIntervalMS": 1000,
+    "maxConcurrent": 10
+  },
+  "security": {
+    "sanitizeSensitive": true,
+    "rateLimitEnabled": true,
+    "rateLimitRPM": 1000,
+    "apiAuthRequired": true
+  }
+}
